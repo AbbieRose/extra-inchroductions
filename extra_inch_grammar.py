@@ -38,11 +38,11 @@ P -> "who" | "that"
 
 VP -> V PropN | Adv V PropN
 
-Adv -> "fucking" | "really" | "sometimes"
+Adv -> "fucking" | "really" | "sometimes" | "frankly"
 
 V -> "likes" | "hates" |  "loves" | "yells about" | "is skeptical about"
 
-PropN -> "Mauricio Pochettino" | "Jose Mourinho" | "Harry Kane" | "Tanguy Ndombele" | "Son Heung-Min" | "Joe Hart" | "Pierre-Emile Hojbjerg" | "Erik Lamela" | "Mousa Dembele" | "Troy Parrott" | "Spurs" | "Tottenham" | "Arsenal" | "low blocks" | "mid blocks" | "spreadsheets" | "set pieces" | "scanning" | "Marxism" | "the internet" | "Troy Deeney" | "the Athletic" | "tie dye" | "game state" | "xG" | "appapapi appapapa" | "positivity, belief" | "Christian Eriksen" | "Dele Alli" | "Serge Aurier" | "guitars"
+PropN -> "Mauricio Pochettino" | "Jose Mourinho" | "Harry Kane" | "Tanguy Ndombele" | "Son Heung-Min" | "Joe Hart" | "Pierre-Emile Hojbjerg" | "Erik Lamela" | "Mousa Dembele" | "Troy Parrott" | "Spurs" | "Tottenham" | "Arsenal" | "low blocks" | "mid blocks" | "spreadsheets" | "set pieces" | "scanning" | "Marxism" | "the internet" | "Troy Deeney" | "the Athletic" | "tie dye" | "game state" | "xG" | "appapapi appapapa" | "positivity, belief" | "Christian Eriksen" | "Dele Alli" | "Serge Aurier" | "guitars" | "advanced statistics" | "sea shanties"
 
 """)
 
