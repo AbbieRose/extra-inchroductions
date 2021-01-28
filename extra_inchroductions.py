@@ -11,13 +11,13 @@ import math
 import extra_inch_markov as mm
 import extra_inch_grammar as cfg
 
+server = Flask(__name__)
+app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP], server=server)
+
 models = [
     {"label": "Context-Free Grammar", "value": "CFG"},
     {"label": "Markov Chain", "value": "MC"}
 ]
-
-server = Flask(__name__)
-app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP], server=server)
 
 app.layout = dbc.Container(children=[
     html.Div(children=[
